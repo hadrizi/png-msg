@@ -20,7 +20,7 @@ pub enum Commands {
     },
     /// Decodes message from specified chunk of PNG file
     Decode { path: PathBuf, chunk_type: String },
-    /// Decodes specified chunk from PNG file
+    /// Removes specified chunk from PNG file
     Remove { path: PathBuf, chunk_type: String },
     /// Prints all chunks of PNG file
     Print { path: PathBuf },
