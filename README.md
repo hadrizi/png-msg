@@ -19,7 +19,7 @@ SUBCOMMANDS:
     encode    Encodes message into PNG file
     help      Print this message or the help of the given subcommand(s)
     print     Prints all chunks of PNG file
-    remove    Decodes specified chunk from PNG file
+    remove    Removes specified chunk from PNG file
 ```
 ### What is chunk?
 Chunk is just a bunch of bytes [organazied in some special way](http://www.libpng.org/pub/png/spec/1.2/PNG-Structure.html). What `png-me` wants you to specify is `chunk_type`, according to official docs this is
